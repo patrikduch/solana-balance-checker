@@ -1,0 +1,20 @@
+[package]
+name = "solana-balance-checker"
+version = "1.0.0"
+edition = "2024"
+authors = ["Patrik Duch <duchpatrik@icloud.com>"]
+description = "A fast and lightweight Rust-based CLI for checking the balance of Solana wallets."
+license = "GPL-3.0-or-later"
+repository = "https://github.com/patrikduch/solana-balance-checker"
+
+[dependencies]
+# Error handling
+anyhow = "1.0"
+
+# Utilities
+dotenv = "0.15"
+bs58 = "0.4.0"
+
+# Solana dependencies
+solana-sdk = "1.18.0"
+solana-client = "1.18.0"
